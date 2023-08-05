@@ -250,34 +250,33 @@ body {
 }
 
 .poster1 {
-    background-image: url(./assets/Poster\ 1.png);
     height: 260px;
     width: 570px;
 }
 
 .poster2 {
-    background-image: url(./assets/Poster\ 2.png);
     height: 260px;
     width: 570px;
     margin-top: 30px;
 }
 
 .poster3 {
-    background-image: url(./assets/Poster\ 3.png);
     width: 619px;
     height: 550px;
+    bottom: 10px;
 }
 
 .bottomleft {
     position: relative;
-    bottom: 20px;
+    bottom: 80px;
     left: 50px;
-    color: #000;
+    color: #FFF;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
+    text-align: left;
 }
 
 .fav-icon {
