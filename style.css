@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo-img {
+    width: 25px;
+}
+
+.logo {
+    align-items: center;
+    justify-items: center;
+}
+
+.logo-name {
+    color: #FF5151;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 75px;
+    height: 23.846px;
+}
+
+.my-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.nav-icons {
+    justify-content: space-between;
+}
+
+.links a {
+    width: 50vw;
+    padding-left: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    letter-spacing: 0.9px;
+}
+
+.non-active-page {
+    color: #4f5665;
+    font-size: 16px;
+}
+
+.active-page {
+    color: #FF5151;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    width: 90vw;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+}
+
+.hero-text {
+    padding-left: 100px;
+}
+
+.hero-text p {
+    color: #000;
+    font-family: Mada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-text h1 {
+    color: #000;
+    font-family: Aclonica;
+    font-size: 114px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.hero-text h4 {
+    color: #000;
+    font-family: Mada;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-btn {
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    width: 210px;
+    height: 60px;
+    margin-top: 100px;
+    border: none;
+}
+
+.collections {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section-p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.section-heading {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.btn-section {
+    margin-top: 50px;
+}
+
+.active-btn {
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    width: 130px;
+    height: 60px;
+    border: none;
+}
+
+.non-active-btn {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+    color: #4F5665;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    width: 130px;
+    height: 60px;
+    border: none;
+}
+
+.card-list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+}
+
+.card-img {
+    width: 160px;
+    height: 130px;
+    padding: 40px;
+}
+
+.card-details {
+    width: 300px;
+    height: 120px;
+    border-radius: 0px 0px 25px 25px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.02);
+}
+
+.card-name {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.price-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.price {
+    border-radius: 10px;
+    background: #FF5E3A;
+    width: 80px;
+    height: 29px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.new-arrival {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.coll-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.poster1 {
+    background-image: url(/assets/Poster\ 1.png);
+    height: 260px;
+    width: 570px;
+}
+
+.poster2 {
+    background-image: url(/assets/Poster\ 2.png);
+    height: 260px;
+    width: 570px;
+    margin-top: 30px;
+}
+
+.poster3 {
+    background-image: url(/assets/Poster\ 3.png);
+    width: 619px;
+    height: 550px;
+}
+
+.bottomleft {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.fav-icon {
+    position: relative;
+    top: 10px;
+}
+
+.img-sec {
+    display: flex;
+}
+
+.card-1 {
+    border-radius: 25px;
+    border: 0.5px solid rgba(144, 144, 144, 0.25);
+    background: #F0F0F0;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    margin: 50px 10px;
+}
+
+.fav-card {
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    height: 270px;
+}
+
+.my-footer {
+    background-color: rgba(252, 203, 144, 0.15);
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.my-footer h6 {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.my-footer a {
+    text-decoration: none;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+}
+
+.company p {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.special {
+    color: #FF5E3A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.loc {
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.mail {
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.phone {
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.social{
+    padding-top: 10px;
+}
+
+.contact-icon{
+    background-color: #FF5E3A;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
